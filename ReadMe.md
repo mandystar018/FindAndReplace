@@ -93,9 +93,9 @@ _If you have any questions, ideas or concerns, please, contact us:_
   </tr>
   <tr>
     <td>1</td>
-    <td>Should correctly create User class with user's age</td>
-    <td>user.age</td>
-    <td>35</td>
+    <td>Should correctly create instance of ChangeWord</td>
+    <td>"Hello World, "word" "universe"</td>
+    <td>newList = new ChangeWord("Hello World", "word", "universe")</td>
     <td>True</td>
   </tr>
   

@@ -1,0 +1,9 @@
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/bin/Debug/netcoreapp2.2/FindAndReplace.deps.json
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/bin/Debug/netcoreapp2.2/FindAndReplace.dll
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/bin/Debug/netcoreapp2.2/FindAndReplace.pdb
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/obj/Debug/netcoreapp2.2/FindAndReplace.csprojAssemblyReference.cache
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/obj/Debug/netcoreapp2.2/FindAndReplace.csproj.CoreCompileInputs.cache
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/obj/Debug/netcoreapp2.2/FindAndReplace.AssemblyInfoInputs.cache
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/obj/Debug/netcoreapp2.2/FindAndReplace.AssemblyInfo.cs
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/obj/Debug/netcoreapp2.2/FindAndReplace.dll
+/Users/nataliyazhuravleva/Desktop/Epicodus/C#/week1/FindAndReplace.Solution/FindAndReplace/obj/Debug/netcoreapp2.2/FindAndReplace.pdb
