@@ -23,7 +23,7 @@ namespace FindAndReplace.Tests
     [TestMethod]
     public void GetSentence_ReturnsSentence_String()
     {
-      string sentence = "Hello Wor";
+      string sentence = "Hello World";
       ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
       string result = newList.Sentence; 
       Assert.AreEqual(sentence, result);
