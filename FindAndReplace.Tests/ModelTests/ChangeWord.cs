@@ -16,8 +16,17 @@ namespace FindAndReplace.Tests
     [TestMethod]
     public void ChangeWordConstructor_CreatesInstanceOfChangeWord_ChangeWord()
     {
-      ChangeWord newList = new ChangeWord("Hello World", "word", "universe");
+      ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
       Assert.AreEqual(typeof(ChangeWord), newList.GetType());
+    }
+
+    [TestMethod]
+    public void GetSentence_ReturnsSentence_String()
+    {
+      string sentence = "Hello Wor";
+      ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
+      string result = newList.Sentence; 
+      Assert.AreEqual(sentence, result);
     }
   }
 }

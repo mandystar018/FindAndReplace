@@ -95,11 +95,19 @@ _If you have any questions, ideas or concerns, please, contact us:_
     <td>1</td>
     <td>Should correctly create instance of ChangeWord</td>
     <td>"Hello World, "word" "universe"</td>
-    <td>newList = new ChangeWord("Hello World", "word", "universe")</td>
+    <td>Change newList = new ChangeWord("Hello World", "word", "universe")</td>
     <td>True</td>
   </tr>
-  
+  <tr>
+    <td>2</td>
+    <td>Should correctly get sentence from the list</td>
+    <td>ChangeWord newList = new ChangeWord("Hello World", "word", "universe"); </td>
+    <td>newList.Sentence="Hello World";</td>
+    <td>False</td>
+  </tr>
 </table>
+
+
 
 ### <span style="color:#0ec2b8">License</span> 
 
