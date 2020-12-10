@@ -95,21 +95,21 @@ _If you have any questions, ideas or concerns, please, contact us:_
     <td>1</td>
     <td>Should correctly create instance of ChangeWord</td>
     <td>"Hello World, "word" "universe"</td>
-    <td>Change newList = new ChangeWord("Hello World", "word", "universe")</td>
+    <td>Change newRequest = new ChangeWord("Hello World", "word", "universe")</td>
     <td>True</td>
   </tr>
   <tr>
     <td>2</td>
     <td>Should correctly get sentence from the list</td>
-    <td>ChangeWord newList = new ChangeWord("Hello World", "world", "universe"); </td>
-    <td>newList.Sentence="Hello World";</td>
+    <td>ChangeWord newRequest = new ChangeWord("Hello World", "world", "universe"); </td>
+    <td>newRequest.Sentence="Hello World";</td>
     <td>True</td>
   </tr>
   <tr>
     <td>3</td>
     <td>Should correctly set sentence to the list</td>
-    <td>ChangeWord newList = new ChangeWord("Hello World", "world", "universe"); string updatedSentence="Goodbye World"; </td>
-    <td>newList.Sentence="Goodbye World";</td>
+    <td>ChangeWord newRequest = new ChangeWord("Hello World", "world", "universe"); string updatedSentence="Goodbye World"; </td>
+    <td>newRequest.Sentence="Goodbye World";</td>
     <td>True</td>
   </tr>
 </table>

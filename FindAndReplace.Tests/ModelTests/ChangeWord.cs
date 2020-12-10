@@ -1,31 +1,25 @@
 using System;
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FindAndReplace.Models;
 
 namespace FindAndReplace.Tests
 {
   [TestClass]
-  public class ChangeWordTests //: IDisposable
+  public class ChangeWordTests
   {
-    // public void Dispose()
-    // {
-    //   ChangeWord.ClearAll();
-    // }
-
     [TestMethod]
     public void ChangeWordConstructor_CreatesInstanceOfChangeWord_ChangeWord()
     {
-      ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
-      Assert.AreEqual(typeof(ChangeWord), newList.GetType());
+      ChangeWord newRequest = new ChangeWord("Hello World", "world", "universe");
+      Assert.AreEqual(typeof(ChangeWord), newRequest.GetType());
     }
 
     [TestMethod]
     public void GetSentence_ReturnsSentence_String()
     {
       string sentence = "Hello World";
-      ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
-      string result = newList.Sentence; 
+      ChangeWord newRequest = new ChangeWord("Hello World", "world", "universe");
+      string result = newRequest.Sentence;
       Assert.AreEqual(sentence, result);
     }
 
@@ -33,17 +27,13 @@ namespace FindAndReplace.Tests
     public void SetSentence_ReturnsSentence_String()
     {
       //Arrange
-      ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
+      ChangeWord newRequest = new ChangeWord("Hello World", "world", "universe");
       string updatedSentence = "Goodbye World";
       //Act
-      newList.Sentence=updatedSentence;
-      string result = newList.Sentence;
+      newRequest.Sentence = updatedSentence;
+      string result = newRequest.Sentence;
       //Check 
       Assert.AreEqual(updatedSentence, result);
     }
   }
 }
-
-
-
-
