@@ -28,8 +28,22 @@ namespace FindAndReplace.Tests
       string result = newList.Sentence; 
       Assert.AreEqual(sentence, result);
     }
+
+    [TestMethod]
+    public void SetSentence_ReturnsSentence_String()
+    {
+      //Arrange
+      ChangeWord newList = new ChangeWord("Hello World", "world", "universe");
+      string updatedSentence = "Goodbye World";
+      //Act
+      newList.Sentence=updatedSentence;
+      string result = newList.Sentence;
+      //Check 
+      Assert.AreEqual(updatedSentence, result);
+    }
   }
 }
+
 
 
 

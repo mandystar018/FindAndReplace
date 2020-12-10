@@ -101,12 +101,32 @@ _If you have any questions, ideas or concerns, please, contact us:_
   <tr>
     <td>2</td>
     <td>Should correctly get sentence from the list</td>
-    <td>ChangeWord newList = new ChangeWord("Hello World", "word", "universe"); </td>
+    <td>ChangeWord newList = new ChangeWord("Hello World", "world", "universe"); </td>
     <td>newList.Sentence="Hello World";</td>
-    <td>False</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Should correctly set sentence to the list</td>
+    <td>ChangeWord newList = new ChangeWord("Hello World", "world", "universe"); string sentence="Goodbye World"; </td>
+    <td>newList.Sentence="Goodbye Worl";</td>
+    <td>True</td>
   </tr>
 </table>
 
+
+[TestMethod]
+    public void SetDescription_SetDescription_String()
+    {
+      string description = "Walk the Dog.";
+      Item newItem = new Item(description);
+
+      string updatedDescription = "Do the dishes";
+      newItem.Description = updatedDescription;
+      string result = newItem.Description;
+
+      Assert.AreEqual(updatedDescription, result);
+    }
 
 
 ### <span style="color:#0ec2b8">License</span> 

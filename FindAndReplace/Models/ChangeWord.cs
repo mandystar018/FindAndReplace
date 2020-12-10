@@ -4,7 +4,7 @@ namespace FindAndReplace.Models
 {
   public class ChangeWord
   {
-    public string Sentence { get; set; }
+    public string Sentence { get;  }
     public string FirstWord { get; set; }
     public string SecondWord { get; set; }
     
