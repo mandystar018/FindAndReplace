@@ -10,9 +10,9 @@ _This is a console app where a user enters a string, chooses a word in that stri
 
 ## <span style="color:#0ec2b8">Setup/Installation Requirements</span>
 ### <span style="color:#c4f4ef">Open Locally</span>
-1. _Navigate to my [Find And Replace repo](https://github.com/NataliyaZhuravleva/^^) at https://github.com/NataliyaZhuravleva/^^_ to view the project files and commits.
+1. _Navigate to my [Find And Replace repo](https://github.com/mandystar018/FindAndReplace) to view the project files and commits.
 2. _Click on the green button labeled "Code"_ to copy repository URL.
-3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/NataliyaZhuravleva/^^".
+3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/mandystar018/FindAndReplace".
 4. _Navigate to the folder "/FindAndReplace.Tests"/ModelTests/ to see test files._
 5. _Navigate to the folder "/FindAndReplace/Models/" to see C# files_
 6. _To use this application you will need to install .NET. Please, see instructions below._
