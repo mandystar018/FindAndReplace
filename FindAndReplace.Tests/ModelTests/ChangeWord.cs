@@ -35,5 +35,21 @@ namespace FindAndReplace.Tests
       //Check 
       Assert.AreEqual(updatedSentence, result);
     }
+
+    [TestMethod]
+    public void ReturnSentece_ContainsWord_String()
+    { 
+      //Arrange
+      string sentence="Hello World";
+      string firstWord="world";
+      string secondWord="universe";   
+      ChangeWord newRequest = new ChangeWord(sentence, firstWord, secondWord);
+      //Act
+      string result= newRequest.ReturnSentence(sentence, firstWord, secondWord);
+      //Check
+      Assert.AreEqual("false", result);
+      
+      
+    }
   }
 }

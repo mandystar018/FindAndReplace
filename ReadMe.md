@@ -106,11 +106,14 @@ _If you have any questions, ideas or concerns, please, contact us:_
     <td>True</td>
   </tr>
   <tr>
-    <td>3</td>
-    <td>Should correctly set sentence to the list</td>
-    <td>ChangeWord newRequest = new ChangeWord("Hello World", "world", "universe"); string updatedSentence="Goodbye World"; </td>
-    <td>newRequest.Sentence="Goodbye World";</td>
-    <td>True</td>
+    <td>4</td>
+    <td>Should check that sentence contains first word</td>
+    <td>string sentence="Hello World";
+      string firstWord="world";
+      string secondWord="universe";   
+      ChangeWord newRequest = new ChangeWord(sentence, firstWord, secondWord);</td>
+    <td>newRequest.ReturnSentence="true";</td>
+    <td>False</td>
   </tr>
 </table>
 
