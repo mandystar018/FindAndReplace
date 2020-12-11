@@ -113,7 +113,7 @@ _If you have any questions, ideas or concerns, please, contact us:_
       string secondWord="universe";   
       ChangeWord newRequest = new ChangeWord(sentence, firstWord, secondWord);</td>
     <td>newRequest.ReturnSentence="true";</td>
-    <td>False</td>
+    <td>True</td>
   </tr>
 </table>
 

@@ -47,7 +47,7 @@ namespace FindAndReplace.Tests
       //Act
       string result= newRequest.ReturnSentence(sentence, firstWord, secondWord);
       //Check
-      Assert.AreEqual("false", result);
+      Assert.AreEqual("true", result);
       
       
     }
